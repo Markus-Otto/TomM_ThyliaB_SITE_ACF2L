@@ -1,0 +1,200 @@
+.green {
+    height: 100px;
+    background-color: #2c6c65;
+}
+
+.white {
+    height: 100px;
+    background-color: white;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    position: center;
+}
+
+body{ 
+    background-color: #508680;
+}
+.custom-card {
+    border-radius: 15px; /* Arrondir les bords */
+    border-width: 5px;
+    border-color:azure;
+    box-shadow: 35px 40px 30px rgba(0, 0, 0, 0.3); /* Ombre personnalisée plus forte */
+}
+
+.custom-card-bg-first {
+    background-color: #ff5722; 
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    width: 55%;
+}
+
+.btn-red {
+    background-color: #ff5722;
+    border: none;
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: #ffac92;
+}
+
+.text-red {
+    color: #ff5722;
+    font-size: 20px;
+}
+
+.custom-card-bg-second {
+    background-color: #2828df; 
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    width: 55%;
+}
+
+.btn-blue {
+    background-color: #2828df;
+    border: none;
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: #7c7cff;
+}
+
+.text-blue {
+    color: #2828df;
+    font-size: 20px;
+}
+
+.custom-card-bg-third {
+    background-color: #2a8752; 
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    width: 55%;
+}
+
+.btn-green {
+    background-color: #2a8752;
+    border: none;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: #5ae697;
+}
+
+.text-green {
+    color: #2a8752;
+    font-size: 20px;
+}
+
+
+/* Style du marqueur blanc avec bords arrondis */
+.nav-link.active {
+    background-color: white;
+    color: #2c6c65 !important; /* Change la couleur du texte en fonction du thème */
+    border-radius: 20px; /* Bords arrondis */
+    padding: 5px 15px; /* Ajuste la taille du rectangle */
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease; /* Ajout de transitions pour éviter les changements brusques */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Transition pour une apparence plus douce entre les changements */
+.nav-link {
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+}
+
+.card {
+    box-shadow: 35px 40px 30px rgba(0, 0, 0, 0.3); /* Ombre personnalisée plus forte */
+    border-width: 5px;
+    border-color:azure;
+}
+
+.IMG{
+border-radius: 25px;
+border-width: 5px;
+border-color: azure;
+
+}
+
+.custom-line  {
+    color: white;
+}
+
+.image-container {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.enlarged-image {
+    transition: transform 0.3s;
+}
+
+.enlarged-image:hover {
+    transform: scale(1.1);
+}
+
+.image-container {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.enlarged-image {
+    transition: transform 0.3s;
+}
+
+.enlarged-image:hover {
+    transform: scale(1.1);
+}
+
+.logo-img {
+    bottom: 10px;
+    right: 10px;
+    width: 25px; /* Adjust the size of the logo */
+    height: auto;
+    z-index: 10;
+    color: white;
+    cursor: pointer;
+}
+
+.image-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;     
+}
+
+.logo-contact {
+    margin: 10px;
+    width: 90px;
+    height: 20px;
+    color: black;
+}
+
+.logo-contact:hover {
+    color: #2828df;
+}
+
+.log-info {
+    height: 20px;
+    width: auto;
+}
+
+.d-flex {
+    margin-bottom: 10px; 
+}
+
+.form-group input,
+.form-group label {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.form-group input {
+    margin-left: 2%;
+}
